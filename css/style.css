@@ -99,6 +99,51 @@ select {
 
 
 
+.recipes{
+  padding: 30px;
+  
+} 
+
+.recipes .recipes__themselves{
+  
+  overflow: hidden;
+  border-radius: 5px;
+  
+}
+.recipes .recipes__themselves{
+  transition: ease-in-out 0.3s;
+}
+.recipes .recipes__themselves:hover{
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+}
+
+.recipes__themselves-image{
+  height: 150px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+
+}
+.recipes .recipes__themselves .recipes__themselves-name{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+
+.recipes .recipes__themselves a{
+  color:black;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
 
 
 
